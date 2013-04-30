@@ -1,0 +1,24 @@
+<plugin name='grails-mailchimp' version='0.1' grailsVersion='2.2 &gt; *'>
+  <author>Your name</author>
+  <title>Grails Mailchimp Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/grails-mailchimp</documentation>
+  <type>GrailsMailchimpGrailsPlugin</type>
+  <resources>
+    <resource>co.happyinc.MailchimpSTSService</resource>
+    <resource>co.happyinc.MailchimpService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='rest' version='0.7' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
